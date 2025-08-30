@@ -19,4 +19,14 @@
   .tour-dates span {
     margin-bottom: 5px;
   }
+
+  .spotify-embed {
+    height: 500px; /* mais alto no celular */
+  }
+}
+
+@media (max-width: 480px) {
+  .spotify-embed {
+    height: 600px; /* ainda mais alto em telas bem pequenas */
+  }
 }

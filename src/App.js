@@ -39,12 +39,7 @@ function App() {
         <section id="musica">
           <h2>Música</h2>
           <div className="music-player">
-            <p>Ouça nosso último single "Vale da Sombra da Morte"</p>
-            {/* Placeholder for music player */}
-            <audio controls>
-              <source src="#" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
+            <iframe data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/artist/2lwSEGS7WCKrT9ybi926yR?utm_source=generator" width="100%" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" className="spotify-embed"></iframe>
           </div>
         </section>
         <section id="agenda">
