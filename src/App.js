@@ -1,8 +1,16 @@
+import banner from './imgs/banner.jpeg';
+import Agenda from './components/Agenda';
 import './styles/base.css';
 import './styles/header.css';
 import './styles/main.css';
 import './styles/footer.css';
 import './styles/responsive.css';
+
+const tourDates = [
+  { date: '25/10/2025', city: 'São Paulo, SP', place: 'Manifesto Bar', ticketsUrl: '#' },
+  { date: '15/11/2025', city: 'Curitiba, PR', place: 'Tork \'n Roll', ticketsUrl: '#' },
+  { date: '06/12/2025', city: 'Belo Horizonte, MG', place: 'Mister Rock', ticketsUrl: '#' },
+];
 
 const SpotifyIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-spotify" viewBox="0 0 16 16">
@@ -19,7 +27,15 @@ const InstagramIcon = () => (
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header 
+        className="App-header"
+        style={{
+          backgroundImage: `url(${banner})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover'
+        }}
+      >
         <nav className="App-nav">
           <a href="#sobre">Sobre</a>
           <a href="#musica">Música</a>
@@ -42,33 +58,11 @@ function App() {
             <iframe data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/artist/2lwSEGS7WCKrT9ybi926yR?utm_source=generator" width="100%" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" className="spotify-embed"></iframe>
           </div>
         </section>
-        <section id="agenda">
-          <h2>Agenda</h2>
-          <ul className="tour-dates">
-            <li>
-              <span>25/10/2025</span>
-              <span>São Paulo, SP</span>
-              <span>Manifesto Bar</span>
-              <a href="#">Ingressos</a>
-            </li>
-            <li>
-              <span>15/11/2025</span>
-              <span>Curitiba, PR</span>
-              <span>Tork 'n Roll</span>
-              <a href="#">Ingressos</a>
-            </li>
-            <li>
-              <span>06/12/2025</span>
-              <span>Belo Horizonte, MG</span>
-              <span>Mister Rock</span>
-              <a href="#">Ingressos</a>
-            </li>
-          </ul>
-        </section>
+        <Agenda shows={tourDates} />
         <section id="contato">
           <h2>Contato</h2>
           <p>Para shows e imprensa, entre em contato:</p>
-          <a href="mailto:contato@carcere.com.br">contato@carcere.com.br</a>
+          <a href="mailto:carcere_death@gmail.com">carcere_death@gmail.com</a>
         </section>
       </main>
       <footer>
@@ -81,6 +75,7 @@ function App() {
           </a>
         </div>
         <p>&copy; 2025 Carcere. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="https://mrdev.dev.br" target="_blank" rel="noopener noreferrer">mrdev.dev.br</a></p>
       </footer>
     </div>
   );

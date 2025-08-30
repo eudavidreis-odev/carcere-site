@@ -1,3 +1,6 @@
+## Gemini Added Memories
+- Responda unicamente em Português do Brasil.
+
 # Projeto Carcere
 
 Este projeto é o site da banda de Deathcore Carcere.

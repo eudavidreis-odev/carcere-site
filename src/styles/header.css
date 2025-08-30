@@ -1,5 +1,5 @@
 .App-header {
-  background: url('https://images.unsplash.com/photo-1587731556938-13f7234d79a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  
   color: white;
   padding: 40px 20px;
   position: relative;
@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .App-nav {
