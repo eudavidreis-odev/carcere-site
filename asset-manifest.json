@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sitecarcere/static/css/main.5a65bd74.css",
-    "main.js": "/sitecarcere/static/js/main.2f90d28d.js",
+    "main.js": "/sitecarcere/static/js/main.e1ebc24f.js",
     "static/js/453.17c129a2.chunk.js": "/sitecarcere/static/js/453.17c129a2.chunk.js",
     "static/media/banner.jpeg": "/sitecarcere/static/media/banner.3fe2288e50a70290ef4d.jpeg",
     "index.html": "/sitecarcere/index.html",
     "main.5a65bd74.css.map": "/sitecarcere/static/css/main.5a65bd74.css.map",
-    "main.2f90d28d.js.map": "/sitecarcere/static/js/main.2f90d28d.js.map",
+    "main.e1ebc24f.js.map": "/sitecarcere/static/js/main.e1ebc24f.js.map",
     "453.17c129a2.chunk.js.map": "/sitecarcere/static/js/453.17c129a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a65bd74.css",
-    "static/js/main.2f90d28d.js"
+    "static/js/main.e1ebc24f.js"
   ]
 }
