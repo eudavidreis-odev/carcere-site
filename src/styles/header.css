@@ -41,6 +41,16 @@
   color: #8b0000;
 }
 
+.menu-toggle {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 2em;
+}
+
 .hero {
   position: relative;
   z-index: 1;
