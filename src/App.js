@@ -55,7 +55,7 @@ function App() {
         <section id="musica">
           <h2>Música</h2>
           <div className="music-player">
-            <iframe data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/artist/2lwSEGS7WCKrT9ybi926yR?utm_source=generator" width="100%" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" className="spotify-embed"></iframe>
+            <iframe title="Spotify Embed" data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/artist/2lwSEGS7WCKrT9ybi926yR?utm_source=generator" width="100%" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" className="spotify-embed"></iframe>
           </div>
         </section>
         <Agenda shows={tourDates} />

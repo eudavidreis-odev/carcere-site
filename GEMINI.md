@@ -11,8 +11,10 @@ Este projeto é o site da banda de Deathcore Carcere.
 
 ## Hospedagem
 
-O site será hospedado como um subdiretório de um projeto Node.js Express.
-Exemplo de URL: `mrdev.dev.br/carcere`
+O site será hospedado em dois locais:
+
+*   **GitHub Pages:** Para fácil acesso e demonstração.
+*   **Subdiretório:** No site `mrdev.dev.br/carceresite`, integrado a um projeto Node.js Express.
 
 ## Boas Práticas e Preferências
 
