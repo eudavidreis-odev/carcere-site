@@ -64,7 +64,7 @@ function App() {
         <section id="contato">
           <h2>Contato</h2>
           <p>Para shows e imprensa, entre em contato:</p>
-          <a href="mailto:carcere_death@gmail.com">carcere_death@gmail.com</a>
+          <a href="mailto:carceredeath@gmail.com">carceredeath@gmail.com</a>
         </section>
       </main>
       <footer>
