@@ -3,7 +3,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     min-height: auto;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 300px;
+    background-position: center;
   }
 
   .menu-toggle {
