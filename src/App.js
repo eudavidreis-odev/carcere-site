@@ -1,5 +1,6 @@
 import banner from './imgs/banner.jpeg';
 import Agenda from './components/Agenda';
+import InstagramFeed from './components/InstagramFeed';
 import './styles/base.css';
 import './styles/header.css';
 import './styles/main.css';
@@ -58,6 +59,7 @@ function App() {
             <iframe title="Spotify Embed" data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/artist/2lwSEGS7WCKrT9ybi926yR?utm_source=generator" width="100%" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" className="spotify-embed"></iframe>
           </div>
         </section>
+        <InstagramFeed />
         <Agenda shows={tourDates} />
         <section id="contato">
           <h2>Contato</h2>
